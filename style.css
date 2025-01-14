@@ -85,9 +85,9 @@ section {
     text-align: center;
 }
 
-h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+.h2 {
+    font-family: Arial, sans-serif; /* or any desired font */
+    /* other styles */
 }
 
 .oferta-grid {
