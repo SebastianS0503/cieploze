@@ -128,3 +128,79 @@ footer {
     font-size: 24px; /* Przykładowy rozmiar czcionki */
     font-weight: bold; /* Przykładowa grubość czcionki */
 }
+
+#serwis-montaz .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#serwis-montaz .panel {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    border-radius: 5px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+#serwis-montaz .panel:hover {
+    background: #e8f4fd;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    #serwis-montaz .panel {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    #serwis-montaz .panel {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+#kontakt {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#kontakt form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#kontakt label {
+    font-weight: bold;
+}
+
+#kontakt input, #kontakt textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#kontakt button {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#kontakt button:hover {
+    background: #e68900;
+}

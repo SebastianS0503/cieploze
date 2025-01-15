@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serwis i Montaż - CiepłOZE</title>
+    <meta name="description" content="Serwis i Montaż pomp ciepła.">
+    <title>CiepłOZE - Serwis i Montaż</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
+    <!-- Nagłówek -->
     <header>
         <div class="container">
             <nav>
@@ -22,46 +25,59 @@
         </div>
     </header>
 
-    <!-- Treść Podstrony -->
-    <section>
+    <!-- Sekcja Serwis i Montaż -->
+    <section id="serwis-montaz">
         <div class="container">
-            <h1 class="title">Serwis i Montaż</h1>
-            <p>
-                Oferujemy kompleksowy serwis i montaż pomp ciepła. Nasz zespół składa się z doświadczonych specjalistów, którzy zapewnią profesjonalną obsługę na każdym etapie realizacji.
-            </p>
-            <h2 class="subtitle">Dlaczego nam zaufać:</h2>
-            <ul>
-                <li>✅ Wieloletnie doświadczenie</li>
-                <li>✅ Profesjonalna obsługa</li>
-                <li>✅ Szybki czas realizacji</li>
-                <li>✅ Gwarancja jakości</li>
-            </ul>
-            <h2 class="subtitle">Nasi Partnerzy:</h2>
-            <div style="display: flex; justify-content: space-around; align-items: center;">
-                <div style="margin: 0 20px;">
-                    <a href="https://www.kolton.pl/" target="_blank">
-                        <img src="images/logo1.png" alt="Kołton" style="width:100px; height:auto;">
-                    </a>
+            <h2>Serwis i Montaż</h2>
+            <div class="grid">
+                <div class="panel">
+                    <h3>Profesjonalny montaż pomp ciepła</h3>
+                    <p>Montaż pompy ciepła to kluczowy etap, który decyduje o efektywności systemu przez lata. Zatrudniamy wykwalifikowanych specjalistów, którzy przeprowadzą montaż zgodnie z najwyższymi standardami. Nasze doświadczenie i profesjonalizm gwarantują, że system będzie działał optymalnie, zapewniając Ci komfort i oszczędności.</p>
                 </div>
-                <div style="margin: 0 20px;">
-                    <a href="https://haier-ac.pl/?gad_source=1&gclid=EAIaIQobChMIzp6O2Mb3igMVmKWDBx1KhyUHEAAYAiAAEgJp9PD_BwE" target="_blank">
-                        <img src="images/logo2.png" alt="Haier" style="width:100px; height:auto;">
-                    </a>
+                <div class="panel">
+                    <h3>Serwis i konserwacja</h3>
+                    <p>Regularny serwis to klucz do długotrwałej i bezawaryjnej pracy Twojej pompy ciepła. Oferujemy kompleksową obsługę serwisową, obejmującą: przeglądy okresowe, diagnostykę usterek, czyszczenie systemu, wymianę filtrów oraz sprawdzanie szczelności instalacji. Nasze usługi są dostępne zarówno dla urządzeń, które zainstalowaliśmy, jak i tych od innych producentów.</p>
                 </div>
-                <div style="margin: 0 20px;">
-                    <a href="https://galmet.com.pl/" target="_blank">
-                        <img src="images/logo3.png" alt="Galmet" style="width:100px; height:auto;">
-                    </a>
+                <div class="panel">
+                    <h3>Wsparcie techniczne</h3>
+                    <p>Nasze wsparcie techniczne jest dostępne 24/7, aby pomóc Ci w każdej sytuacji. Niezależnie od problemu, nasi specjaliści są gotowi udzielić Ci fachowej pomocy i doradztwa.</p>
+                </div>
+                <div class="panel">
+                    <h3>Modernizacja systemów</h3>
+                    <p>Oferujemy usługi modernizacji istniejących systemów grzewczych, aby zwiększyć ich efektywność i obniżyć koszty eksploatacji. Skontaktuj się z nami, aby dowiedzieć się więcej o możliwościach modernizacji Twojego systemu.</p>
+                </div>
+                <div class="panel">
+                    <h3>Szkolenia i edukacja</h3>
+                    <p>Organizujemy szkolenia i warsztaty dla naszych monterów, aby pomóc im lepiej zrozumieć działanie i konserwację pomp ciepła. Nasze szkolenia są prowadzone przez doświadczonych specjalistów.</p>
+                </div>
+                <div class="panel">
+                    <h3>Gwarancja i ubezpieczenie</h3>
+                    <p>Wszystkie nasze usługi są objęte gwarancją, a dodatkowo oferujemy możliwość wykupienia ubezpieczenia na wypadek awarii. Skontaktuj się z nami, aby dowiedzieć się więcej o naszych warunkach gwarancji i ubezpieczenia.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Sekcja Skontaktuj się z nami -->
+    <section id="kontakt">
+        <div class="container">
+            <h2>Skontaktuj się z nami</h2>
+            <p>Masz pytania? Skontaktuj się z nami, a nasi specjaliści chętnie Ci pomogą.</p>
+            <form action="mailto:kontakt@cieploze.pl" method="post" enctype="text/plain">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
+        </div>
+    </section>
+
     <!-- Stopka -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 CiepłOZE. Wszystkie prawa zastrzeżone.</p>
-        </div>
+        <p>&copy; 2023 CiepłOZE. Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
