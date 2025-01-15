@@ -122,3 +122,9 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.title, .subtitle {
+    font-family: 'Arial', sans-serif; /* Przykładowa czcionka */
+    font-size: 24px; /* Przykładowy rozmiar czcionki */
+    font-weight: bold; /* Przykładowa grubość czcionki */
+}
