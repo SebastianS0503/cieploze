@@ -39,7 +39,7 @@ header {
 }
 
 header .logo {
-    font-size: 3rem; /* Powiększenie napisu */
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -73,6 +73,8 @@ nav ul {
     padding: 10px 20px;
     border-radius: 5px;
     transition: 0.3s;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .btn:hover {
@@ -124,9 +126,9 @@ footer {
 }
 
 .title, .subtitle {
-    font-family: 'Arial', sans-serif; /* Przykładowa czcionka */
-    font-size: 24px; /* Przykładowy rozmiar czcionki */
-    font-weight: bold; /* Przykładowa grubość czcionki */
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #serwis-montaz .grid {

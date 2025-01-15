@@ -22,81 +22,80 @@
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
-            <div class="hero" id="home">
-                <h1>Nowoczesne Pompy Ciepła dla Twojego Domu</h1>
-                <p>Oszczędność, ekologia i komfort cieplny w jednym rozwiązaniu.</p>
-                <a href="#oferta" class="btn">Poznaj Ofertę</a>
+            <div class="hero">
+                <h1>Witamy w CiepłOZE</h1>
+                <p>Profesjonalna firma zajmująca się montażem i sprzedażą pomp ciepła.</p>
+                <a href="#oferta" class="btn">Zobacz ofertę</a>
             </div>
         </div>
     </header>
 
- <!-- Sekcja Oferta -->
-<section id="oferta">
-    <div class="container">
-        <h2>Nasza Oferta</h2>
-        <div class="oferta-grid">
-            <div class="oferta-item">
-                <h3>Pompy ciepła powietrzne</h3>
-                <p>Idealne rozwiązanie dla ogrzewania i ciepłej wody użytkowej.</p>
-                <a href="powietrzne.html" class="btn">Dowiedz się więcej</a>
-            </div>
-            <div class="oferta-item">
-                <h3>Pompy ciepła gruntowe</h3>
-                <p>Najwyższa efektywność i stabilność działania.</p>
-                <a href="gruntowe.html" class="btn">Dowiedz się więcej</a>
-            </div>
-            <div class="oferta-item">
-                <h3>Serwis i montaż</h3>
-                <p>Kompleksowa obsługa od projektu po instalację.</p>
-                <a href="serwis-montaz.html" class="btn">Dowiedz się więcej</a>
+    <!-- Sekcja Nasza Oferta -->
+    <section id="oferta">
+        <div class="container">
+            <h2>Nasza Oferta</h2>
+            <div class="oferta-grid">
+                <div class="oferta-item">
+                    <h3>Pompy ciepła powietrzne</h3>
+                    <p>Idealne rozwiązanie dla ogrzewania i ciepłej wody użytkowej.</p>
+                    <a href="powietrzne.html" class="btn">Dowiedz się więcej</a>
+                </div>
+                <div class="oferta-item">
+                    <h3>Pompy ciepła gruntowe</h3>
+                    <p>Najwyższa efektywność i stabilność działania.</p>
+                    <a href="gruntowe.html" class="btn">Dowiedz się więcej</a>
+                </div>
+                <div class="oferta-item">
+                    <h3>Serwis i montaż</h3>
+                    <p>Kompleksowa obsługa od projektu po instalację.</p>
+                    <a href="serwis-montaz.html" class="btn">Dowiedz się więcej</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Sekcja Zalety -->
     <section id="zalety">
         <div class="container">
-            <h2 class="title">Dlaczego warto wybrać nasze pompy ciepła?</h2>
-            <p>
-                Nasze pompy ciepła to nowoczesne i ekologiczne rozwiązania, które zapewniają komfort cieplny przez cały rok. Dzięki nim możesz znacząco obniżyć koszty ogrzewania i cieszyć się niezawodnością przez wiele lat.
-            </p>
-            <ul>
-                <li>✅ Wysoka efektywność energetyczna</li>
-                <li>✅ Niskie koszty eksploatacji</li>
-                <li>✅ Przyjazne dla środowiska</li>
-                <li>✅ Prosta instalacja</li>
+            <h2>Czy potrzebujesz pompy ciepła?</h2>
+            <ul class="zalety-list">
+                <li>✅Wysoka efektywność energetyczna</li>
+                <li>✅Oszczędność kosztów ogrzewania</li>
+                <li>✅Przyjazność dla środowiska</li>
+                <li>✅Łatwość obsługi i konserwacji</li>
             </ul>
-            <a href="https://cieplo.net/" class="btn">Sprawdź czy to rozwiązanie dla Ciebie</a>
         </div>
     </section>
 
     <!-- Sekcja O Nas -->
     <section id="onas">
         <div class="container">
-            <h2 class="title">O Nas</h2>
-            <p>
-                Jesteśmy firmą specjalizującą się w instalacji i serwisie pomp ciepła. Nasz zespół składa się z doświadczonych specjalistów, którzy zapewniają najwyższą jakość usług.
-            </p>
-            <a href="opinie.html" class="btn">Zobacz Opinie</a>
+            <h2>O Nas</h2>
+            <p>Jesteśmy profesjonalną firmą zajmującą się montażem i sprzedażą pomp ciepła. Nasze doświadczenie i zaangażowanie gwarantują najwyższą jakość usług.</p>
+            <a href="opinie.html" class="btn">Zobacz opinie</a>
         </div>
     </section>
 
-    <!-- Sekcja Kontakt -->
+    <!-- Sekcja Skontaktuj się z nami -->
     <section id="kontakt">
         <div class="container">
             <h2>Skontaktuj się z nami</h2>
-            <p>Masz pytania? Zadzwoń lub napisz do nas!</p>
-            <p><strong>Telefon:</strong> <a href="tel:+48123456789">+48 123 456 789</a></p>
-            <p><strong>Email:</strong> <a href="mailto:kontakt@cieploze.pl">kontakt@cieploze.pl</a></p>
+            <p>Masz pytania? Skontaktuj się z nami, a nasi specjaliści chętnie Ci pomogą.</p>
+            <form action="mailto:kontakt@cieploze.pl" method="post" enctype="text/plain">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
         </div>
     </section>
 
     <!-- Stopka -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 CiepłOZE. Wszystkie prawa zastrzeżone.</p>
-        </div>
+        <p>&copy; 2023 CiepłOZE. Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
