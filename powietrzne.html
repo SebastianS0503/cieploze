@@ -1,229 +1,75 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pompy Ciepła Powietrzne - CiepłOZE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Ciepł<span>OZE</span></div>
+                <ul>
+                    <li><a href="index.html#home">Strona Główna</a></li>
+                    <li><a href="index.html#oferta">Oferta</a></li>
+                    <li><a href="index.html#zalety">Zalety</a></li>
+                    <li><a href="index.html#onas">O Nas</a></li>
+                    <li><a href="index.html#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
+    <!-- Treść Podstrony -->
+    <section>
+        <div class="container">
+            <h1 class="title">Pompy Ciepła Powietrzne</h1>
+            <p>
+                Pompy ciepła powietrzne to idealne rozwiązanie dla osób, które szukają wydajnych i ekologicznych systemów grzewczych. Technologia ta pozyskuje energię z otaczającego powietrza, co pozwala znacząco obniżyć koszty ogrzewania budynku oraz podgrzewania wody użytkowej.
+            </p>
+            <img src="images/2.png" alt="Pompa ciepła powietrzna" style="width:25%; height:auto;">
+            <p>
+                Powietrzne pompy ciepła najlepiej umiejscowić na zewnątrz budynku, w miejscu dobrze wentylowanym, z dala od źródeł hałasu i zanieczyszczeń. Ważne jest, aby zapewnić swobodny przepływ powietrza wokół urządzenia, co zwiększy jego efektywność.
+            </p>
+            <h2 class="subtitle">Zalety pomp powietrznych:</h2>
+            <ul>
+                <li>✅ Niskie koszty eksploatacji</li>
+                <li>✅ Prosta instalacja</li>
+                <li>✅ Przyjazne dla środowiska</li>
+                <li>✅ Efektywne działanie przez cały rok</li>
+            </ul>
+            <h2 class="subtitle">Nasi Partnerzy:</h2>
+            <div style="display: flex; justify-content: space-around; align-items: center;">
+                <div style="margin: 0 20px;">
+                    <a href="https://www.kolton.pl/" target="_blank">
+                        <img src="images/logo1.png" alt="Kołton" style="width:100px; height:auto;">
+                    </a>
+                </div>
+                <div style="margin: 0 20px;">
+                    <a href="https://haier-ac.pl/?gad_source=1&gclid=EAIaIQobChMIzp6O2Mb3igMVmKWDBx1KhyUHEAAYAiAAEgJp9PD_BwE" target="_blank">
+                        <img src="images/logo2.png" alt="Haier" style="width:100px; height:auto;">
+                    </a>
+                </div>
+                <div style="margin: 0 20px;">
+                    <a href="https://galmet.com.pl/" target="_blank">
+                        <img src="images/logo3.png" alt="Galmet" style="width:100px; height:auto;">
+                    </a>
+                </div>
+            </div>
+            <p>
+                Nasze pompy ciepła powietrzne to urządzenia renomowanych producentów, gwarantujące jakość i niezawodność.
+            </p>
+            <a href="index.html#oferta" class="btn">Powrót do Oferty</a>
+        </div>
+    </section>
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Nagłówek */
-header {
-    background: url('images/1.png') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-header .logo {
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.logo span {
-    color: green;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 10px 0;
-}
-
-.hero {
-    margin-top: 50px;
-}
-
-.hero h1 {
-    font-size: 2.8rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin: 10px 0 20px;
-}
-
-.btn {
-    display: inline-block;
-    background: #ff9800;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.btn:hover {
-    background: #e68900;
-}
-
-/* Sekcja */
-section {
-    padding: 40px 0;
-    text-align: center;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.oferta-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.oferta-item {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    flex: 1;
-    max-width: 300px;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.oferta-item:hover {
-    background: #e8f4fd;
-    transform: translateY(-5px);
-}
-
-.zalety-list li {
-    margin: 10px 0;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.title, .subtitle {
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-#serwis-montaz .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-#serwis-montaz .panel {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    flex: 1 1 calc(33.333% - 40px);
-    max-width: calc(33.333% - 40px);
-    border-radius: 5px;
-    transition: 0.3s;
-    box-sizing: border-box;
-}
-
-#serwis-montaz .panel:hover {
-    background: #e8f4fd;
-    transform: translateY(-5px);
-}
-
-@media (max-width: 768px) {
-    #serwis-montaz .panel {
-        flex: 1 1 calc(50% - 20px);
-        max-width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    #serwis-montaz .panel {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-}
-
-#kontakt {
-    padding: 40px 0;
-    text-align: center;
-}
-
-#kontakt form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#kontakt label {
-    font-weight: bold;
-}
-
-#kontakt input, #kontakt textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-#kontakt button {
-    background: #ff9800;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#kontakt button:hover {
-    background: #e68900;
-}
-
-.contact-info {
-    margin-top: 20px;
-    padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: left;
-}
-
-.contact-info h3 {
-    margin-bottom: 10px;
-}
-
-.contact-info p {
-    margin: 5px 0;
-}
+    <!-- Stopka -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ciepł<span>OZE</span>. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+</body>
+</html>
