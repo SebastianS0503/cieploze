@@ -13,57 +13,56 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">CiepłOZE</div>
+                <div class="logo">Ciepł<span>OZE</span></div>
                 <ul>
                     <li><a href="#home">Strona Główna</a></li>
                     <li><a href="#oferta">Oferta</a></li>
                     <li><a href="#zalety">Zalety</a></li>
-                    <li><a href="#onas">O Nas</a></li>
+                    <li><a href="index.html#onas">O Nas</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
-            <div class="hero" id="home">
-                <h1>Nowoczesne Pompy Ciepła dla Twojego Domu</h1>
-                <p>Oszczędność, ekologia i komfort cieplny w jednym rozwiązaniu.</p>
-                <a href="#oferta" class="btn">Poznaj Ofertę</a>
+            <div class="hero">
+                <a href="#oferta" class="btn">Zobacz ofertę</a>
             </div>
         </div>
     </header>
 
- <!-- Sekcja Oferta -->
-<section id="oferta">
-    <div class="container">
-        <h2>Nasza Oferta</h2>
-        <div class="oferta-grid">
-            <div class="oferta-item">
-                <h3>Pompy ciepła powietrze-woda</h3>
-                <p>Idealne rozwiązanie dla ogrzewania i ciepłej wody użytkowej.</p>
-                <a href="powietrze-woda.html" class="btn">Dowiedz się więcej</a>
-            </div>
-            <div class="oferta-item">
-                <h3>Pompy ciepła gruntowe</h3>
-                <p>Najwyższa efektywność i stabilność działania.</p>
-                <a href="gruntowe.html" class="btn">Dowiedz się więcej</a>
-            </div>
-            <div class="oferta-item">
-                <h3>Serwis i montaż</h3>
-                <p>Kompleksowa obsługa od projektu po instalację.</p>
-                <a href="serwis-montaz.html" class="btn">Dowiedz się więcej</a>
+    <!-- Sekcja Nasza Oferta -->
+    <section id="oferta">
+        <div class="container">
+            <h2>Nasza Oferta</h2>
+            <div class="oferta-grid">
+                <div class="oferta-item">
+                    <h3>Pompy ciepła powietrzne</h3>
+                    <p>Idealne rozwiązanie dla ogrzewania i ciepłej wody użytkowej.</p>
+                    <a href="powietrzne.html" class="btn">Dowiedz się więcej</a>
+                </div>
+                <div class="oferta-item">
+                    <h3>Pompy ciepła gruntowe</h3>
+                    <p>Najwyższa efektywność i stabilność działania.</p>
+                    <a href="gruntowe.html" class="btn">Dowiedz się więcej</a>
+                </div>
+                <div class="oferta-item">
+                    <h3>Serwis i montaż</h3>
+                    <p>Kompleksowa obsługa od projektu po instalację.</p>
+                    <a href="serwis-montaz.html" class="btn">Dowiedz się więcej</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Sekcja Zalety -->
     <section id="zalety">
         <div class="container">
-            <h2>Dlaczego warto wybrać pompy ciepła?</h2>
+            <h2>Czy potrzebujesz pompy ciepła?</h2>
             <ul class="zalety-list">
-                <li>✅ <strong>Oszczędność</strong> - niższe rachunki za ogrzewanie.</li>
-                <li>✅ <strong>Ekologia</strong> - zero emisji spalin.</li>
-                <li>✅ <strong>Komfort</strong> - bezobsługowa praca urządzeń.</li>
-                <li>✅ <strong>Nowoczesność</strong> - technologia przyszłości.</li>
+                <li>✅Wysoka efektywność energetyczna</li>
+                <li>✅Oszczędność kosztów ogrzewania</li>
+                <li>✅Przyjazność dla środowiska</li>
+                <li>✅Łatwość obsługi i konserwacji</li>
             </ul>
+            <a href="https://cieplo.net/" class="btn">Sprawdź czy to rozwiązanie dla Ciebie</a>
         </div>
     </section>
 
@@ -71,25 +70,37 @@
     <section id="onas">
         <div class="container">
             <h2>O Nas</h2>
-            <p>Jesteśmy firmą z wieloletnim doświadczeniem w dziedzinie nowoczesnych rozwiązań grzewczych. Nasz zespół specjalistów oferuje doradztwo, sprzedaż oraz montaż pomp ciepła najwyższej jakości.</p>
+            <p>Jesteśmy profesjonalną firmą zajmującą się montażem i sprzedażą pomp ciepła. Nasze doświadczenie i zaangażowanie gwarantują najwyższą jakość usług.</p>
+            <a href="opinie.html" class="btn">Zobacz opinie</a>
         </div>
     </section>
 
-    <!-- Sekcja Kontakt -->
+    <!-- Sekcja Skontaktuj się z nami -->
     <section id="kontakt">
         <div class="container">
             <h2>Skontaktuj się z nami</h2>
-            <p>Masz pytania? Zadzwoń lub napisz do nas!</p>
-            <p><strong>Telefon:</strong> <a href="tel:+48123456789">+48 123 456 789</a></p>
-            <p><strong>Email:</strong> <a href="mailto:kontakt@cieploze.pl">kontakt@cieploze.pl</a></p>
+            <p>Masz pytania? Skontaktuj się z nami, a nasi specjaliści chętnie Ci pomogą.</p>
+            <form action="mailto:kontakt@cieploze.pl" method="post" enctype="text/plain">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Wyślij</button>
+            </form>
+            <div class="contact-info">
+                <h3>Dane kontaktowe</h3>
+                <p><strong>Numer telefonu:</strong> +48 123 456 789</p>
+                <p><strong>Adres email:</strong> kontakt@cieploze.pl</p>
+                <p><strong>Adres:</strong> ul. Przykładowa 1, 00-000 Miasto</p>
+            </div>
         </div>
     </section>
 
     <!-- Stopka -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 CiepłOZE. Wszystkie prawa zastrzeżone.</p>
-        </div>
+        <p>&copy; 2025 Ciepł<span>OZE</span>. Wszelkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
